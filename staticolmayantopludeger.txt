@@ -1,0 +1,22 @@
+class Dinazor{
+
+	public Dinazor(){
+	
+		Syatem.out.println("Ben t-rex");
+	}
+}
+
+public class StaticOlmayanTopluDeger{
+
+	int x;
+	double y;
+	Dinazor dz; 
+	
+	{
+		x=5;
+		y=7;
+		dz=new Dinazor();
+	}
+}
+
+main metoda da ==> new StaticOlmayanTopluDeger();

@@ -1,0 +1,5 @@
+system.gc() = bir referansa baðlý olmayan gereksiz þeyleri siler. finalize metodunu tetikler yani çalýþtýrýr.
+
+"finalize" metodu = 
+
+baþtan static alanlara deðer atýlýyor sonradan static olmayan alanlara geçiliyor.

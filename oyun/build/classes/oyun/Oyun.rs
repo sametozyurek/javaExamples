@@ -1,0 +1,10 @@
+oyun.NickName
+oyun.Kasil
+calisma.Kasil
+calisma.IrkSec
+oyun.Oyun
+oyun.IrkSec
+calisma.TenRengi
+calisma.NickName
+oyun.TenRengi
+calisma.Calisma

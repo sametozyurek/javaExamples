@@ -1,0 +1,7 @@
+memelınterface.Cogalabilme
+memelınterface.Memeli
+memelınterface.Yuru
+memelınterface.Hareketedebilme
+memelınterface.Ureyebilme
+memelınterface.Beslenebilme
+memelınterface.MemelInterface

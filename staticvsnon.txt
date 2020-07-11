@@ -1,0 +1,59 @@
+class Peynir {
+
+	public Peynir(int i, String tur){
+		
+		System.out.println("Peynir("+i") --> "+tur);
+	
+		}
+}
+
+class Tabak {
+
+	public Tabak(int i, String tur) {
+	
+		System.out.println("Tabak ("+i+") -->"+tur);
+		
+		}
+	static Peynir p1 = new Peynir(1,"Statik Alan");
+	Peynir p2 = new Peynir(2,"Statik Olmayan Alan");
+
+}
+
+class Catal {
+
+	public Catal(int i, String tur) {
+	
+		System.out.println("Catal ("+i+") -->" tur);
+	
+	}
+		
+}
+
+public class KahvaltıOrn {
+
+	static Catal c1 = new Catal(1,"Static Alan");
+	
+	public KahvaltıOrn() {
+	
+		System.out.println("Kahvaltı() yapilandiricisi");
+	
+	}
+
+	Tabak t1 = new Tabak(1,"static olmayan alan");
+	
+	public void IslemTamam(){
+	
+		System.out.println("Islem tamam");
+	}
+	
+	static Catal c2 = new Catal(2,"static alan");
+	
+	public static void main(String[] args){
+	
+		KahvaltıOrn khv = new KahvaltıOrn();
+		khv.IslemTamam();
+		
+	}
+}
+
+
